@@ -186,13 +186,19 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
               dolor?
             </p>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Enter Email.."
-            />
-            <button class="btn btn-block btn-primary">Subscribe</button>
+            <form name="contact" data-netlify="true" method="post">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter Email.."
+              />
+              <input
+                type="submit"
+                value="Subscribe"
+                class="btn btn-primary btn-block"
+              />
+            </form>
           </div>
 
           <div class="footer-item">
